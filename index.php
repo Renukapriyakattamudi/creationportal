@@ -32,7 +32,7 @@ if($method == 'POST'){
 	$response->fulfillmentText = $speech;
 	$response->fulfillmentMessages = $speech;
 	$response->displayText = $speech;
-	$response->source = "webhook";
+	$response->source = "creationportal";
 	echo json_encode($response);
 }
 else
