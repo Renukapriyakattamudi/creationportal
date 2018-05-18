@@ -32,6 +32,7 @@ if($method == 'POST'){
 	$response->fulfillmentText = $speech;
 	$response->fulfillmentMessages = $speech;
 	$response->displayText = $speech;
+	$response->text = $speech;
 	$response->source = "creationportal";
 	echo json_encode($response);
 }
