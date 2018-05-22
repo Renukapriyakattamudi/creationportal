@@ -11,6 +11,7 @@ if($method == 'POST'){
 
 	switch ($text) {
 		case 'hi':
+		case 'Hi':
 			$speech = "Hi, Nice to meet you";
 			break;
 
